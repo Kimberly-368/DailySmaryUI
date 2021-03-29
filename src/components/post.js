@@ -38,7 +38,7 @@ class Post extends Component {
     } else if(this.props.type == 'result') {
       return (
         <li className="result-post">
-          <div clasName="result-post__topics">
+          <div className="result-post__topics">
             {this.renderTopics()}
           </div>
           <div className="result-post__title">
