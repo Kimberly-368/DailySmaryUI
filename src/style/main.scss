@@ -1,6 +1,3 @@
-.post-topic {
-    margin: 0 4px;
-}
 
 body {
     font-family: 'Lato', sans-serif;
@@ -9,15 +6,6 @@ body {
 .app-wrapper {
     display: grid;
     justify-content: center;
-}
-
-.home {
-    height: 100vh;
-    width: 66vw;
-    display: grid;
-    align-content: space-around;
-    // justify-items: stretch;
-    // grid-template-areas: 1fr 2fr 1fr;
 }
 
 .logo-main,
@@ -37,6 +25,9 @@ $color-gray-one: #666666;
 $color-gray-two: #B3B3B3;
 $color-blue-one: #0079FF;
 
+@import './mixins';
 @import './searchBar';
 @import './recentPosts';
 @import './post';
+@import './home';
+@import './results';
