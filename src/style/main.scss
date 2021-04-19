@@ -32,9 +32,9 @@ $color-blue-one: #0079FF;
     line-height: 17px;
 }
 
-@import './mixins';
-@import './searchBar';
-@import './recentPosts';
-@import './post';
-@import './home';
-@import './results';
+@import './mixins.scss';
+@import './searchBar.scss';
+@import './recentPosts.scss';
+@import './post.scss';
+@import './home.scss';
+@import './results.scss';
